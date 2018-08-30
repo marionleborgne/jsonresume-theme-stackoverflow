@@ -1,11 +1,11 @@
 {
-  "name": "jsonresume-theme-stackoverflow-FA5",
+  "name": "jsonresume-theme-stackoverflow-marion",
   "version": "1.4.0",
-  "description": "Stack Overflow theme for JSON Resume",
-  "author": "Francesco Esposito <http://fran.cesco.io>",
+  "description": "Stack Overflow theme for JSON Resume (Marion's version)",
+  "author": "Francesco Esposito, Marion Le Borgne",
   "repository": {
     "type": "git",
-    "url": "https://github.com/francescoes/jsonresume-theme-stackoverflow"
+    "url": "https://github.com/marionleborgne/jsonresume-theme-stackoverflow"
   },
   "license": "MIT",
   "main": "index.js",

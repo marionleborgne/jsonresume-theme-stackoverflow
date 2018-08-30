@@ -1,8 +1,4 @@
-# Stack Overflow theme for jsonresume [![npm version](https://badge.fury.io/js/jsonresume-theme-stackoverflow.svg)](http://badge.fury.io/js/jsonresume-theme-stackoverflow)
-
-**Printable version with custom CSS**
-
-[DEMO](https://themes.jsonresume.org/stackoverflow)
+# Marion's updated Stack Overflow theme for JSONresume
 
 ## Getting started
 
@@ -17,19 +13,30 @@ Go ahead and install it:
 ```
 sudo npm install -g resume-cli
 ```
-### Install and serve theme
 
-Clone the repository
+### Build / export your resume
+
+Install the theme:
+```
+npm install -g jsonresume-theme-stackoverflow-marion
+```
+
+Export resume with this theme:
+```
+resume export resume.html --them stackoverflow-marion
+```
+
+You should have a `resume.html` file with the correct theme.
+
+### Developement (Install and serve theme with hot reloading)
+
+Clone the repository and install deps:
 
 ```
-npm install jsonresume-theme-stackoverflow
+npm install
 ```
 
-then change directory: 
-
-`cd node_modules/jsonresume-theme-stackoverflow/`
-
-And simply run:
+Serve:
 
 ```
 resume serve
@@ -51,6 +58,18 @@ To build your own resume, create a 'resume.json' file in the current folder and 
 github, stack overflow, linkedin, dribbble, twitter, facebook, pinterest, instagram, soundcloud, wordpress, youtube, flickr, google plus, tumblr, foursquare.
 
 To have a social icon close the social link profile (or username) it is enough to set a `network` the name of the Social Network (es: 'Stack Overflow').
+
+> Note: you can use the *custom field* `icon` to set a custom Font Awesome icon. For example, devpost doesn't have a social icon yet, so you can give it a custom icon like this:
+```
+profiles: [
+  {
+    "network": "Devpost",
+    "icon": "fas fa-code",
+    "username": "marionleborgne",
+    "url": "https://devpost.com/marionleborgne"
+  }
+]
+```
 
 #### Support to extra fields
 
