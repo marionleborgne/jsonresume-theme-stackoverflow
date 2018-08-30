@@ -63,7 +63,11 @@
 			<div class="item">
 				{{#if network}}
 				<div class="username">
-					<span class="fab fa-{{spaceToDash network}} {{spaceToDash network}} social"></span>
+					{{#if icon}}
+					<span class="{{icon}}"></span>
+					{{else}}
+					<span class="fab fa-{{spaceToDash network}} {{spaceToDash network}} social"></span
+					{{/if}}
 					{{#if url}}
 					<span class="url">
 						<a target="_blank" href="{{url}}">{{username}}</a>

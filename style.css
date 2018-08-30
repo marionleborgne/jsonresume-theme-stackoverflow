@@ -226,6 +226,10 @@ section .location {
     margin-top: .5rem;
 }
 
+#profiles {
+    margin-top: 3px;
+}
+
 #profiles .item {
     padding: 0;
 }
@@ -412,7 +416,7 @@ ul.courses li:hover {
     padding-bottom: .5em;
 }
 
-.fa.social {
+.social {
     font-size: 1.1em;
 }
 
